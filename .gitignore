@@ -1,0 +1,19 @@
+# .gitignore content
+# Operating System files
+.DS_Store
+
+# Python environment and cache
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Data files (Crucial for large SCA datasets like ASCAD)
+data/
+*.h5
+*.hdf5
+*.dat
+
+# Qiskit/other library specific
+.qiskit/
